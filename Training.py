@@ -1,35 +1,21 @@
-import sys
 import os
 from keras.preprocessing.image import ImageDataGenerator
 from keras import optimizers
 from keras.models import Sequential
 from keras.layers import Dropout, Flatten, Dense, Activation
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
-from keras import callbacks
 import time
 
 start = time.time()
 
-DEV = False
-args = sys.argv
-argc = len(args)
-
-#Determines the number of epochs / iterations
-if argc > 1 and (args[1] == "--development" or args[1] == "-d"):
-    DEV = True
-
-if DEV:
-    epochs = 2
-else:
-    epochs = 50
-
 train_data_path = 'data/train'
-validation_data_path = 'data/test'
+validation_data_path = 'data/validation'
 
 
 #Parameters
 img_width, img_height = 150, 150
 batch_size = 32
+epochs = 50
 validation_steps = 300
 nb_filters1 = 32
 nb_filters2 = 64
@@ -41,7 +27,7 @@ lr = 0.0004
 
 model = Sequential()
 model.add(Convolution2D(nb_filters1, conv1_size, input_shape=(img_width, img_height, 3)))
-model.add(Activation("relu"))
+model.add(Activation("relu")) #Rectifier Linear Unit
 model.add(MaxPooling2D(pool_size=(pool_size, pool_size)))
 
 model.add(Convolution2D(nb_filters2, conv2_size, conv2_size))
@@ -56,7 +42,7 @@ model.add(Dense(classes_num, activation='softmax'))
 
 model.compile(loss='categorical_crossentropy',
               optimizer=optimizers.RMSprop(lr=lr),
-              metrics=['accuracy'])
+              metrics=['acc'])
 
 train_datagen = ImageDataGenerator(
     rescale=1. / 255,
@@ -78,23 +64,17 @@ validation_generator = test_datagen.flow_from_directory(
     batch_size=batch_size,
     class_mode='categorical')
 
-#Tensorboard log
-log_dir = './tf-log/'
-tb_cb = callbacks.TensorBoard(log_dir=log_dir, histogram_freq=0)
-cbks = [tb_cb]
 
 model.fit_generator(
     train_generator,
     epochs=epochs,
     validation_data=validation_generator,
-    callbacks=cbks,
     validation_steps=validation_steps)
 
 target_dir = './models/'
 if not os.path.exists(target_dir):
     os.mkdir(target_dir)
 model.save('./models/model.h5')
-model.save_weights('./models/weights.h5')
 
 # Calculate execution time
 end = time.time()

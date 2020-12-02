@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1ddc5f5-444e-4bfa-a213-80300d10b7ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Deep-Learning-CNN-Using-Keras-Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/Instructions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/kucing_014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/kucing_014.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_025.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_025.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_026.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_026.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_033.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_033.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_037.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_037.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_044.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_044.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_048.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_048.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_049.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_049.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_051.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_051.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/mobil_052.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/mobil_052.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_023.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_023.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_024.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_027.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_027.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_028.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_028.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_030.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_030.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_031.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_031.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_033.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_033.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_039.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_039.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_040.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_040.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_041.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_041.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_051.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_051.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_052.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_052.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_058.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_058.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/motor_059.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/validation/motor_059.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_image/kucing_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/Instructions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/weights.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-log/train/events.out.tfevents.1606045921.me-thinkpad-x240.16287.188.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-log/train/events.out.tfevents.1606045926.me-thinkpad-x240.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-log/train/plugins/profile/2020_11_22_19_52_06/me-thinkpad-x240.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-log/train/plugins/profile/2020_11_22_19_52_06/me-thinkpad-x240.kernel_stats.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-log/train/plugins/profile/2020_11_22_19_52_06/me-thinkpad-x240.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-log/train/plugins/profile/2020_11_22_19_52_06/me-thinkpad-x240.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-log/train/plugins/profile/2020_11_22_19_52_06/me-thinkpad-x240.trace.json.gz" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="4ad3d9e0-475b-4787-99b0-fa05281212de" />
+  <component name="ProjectId" id="1ke0NjFztWWYz140ikVbS4uGyYI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Python.Testing">
+    <configuration name="Testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep-Learning-CNN-Using-Keras-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep-Learning-CNN-Using-Keras-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Testing" />
+        <item itemvalue="Python.Training" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1ddc5f5-444e-4bfa-a213-80300d10b7ff" name="Default Changelist" comment="" />
+      <created>1606045714121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606045714121</updated>
+      <workItem from="1606045715361" duration="2890000" />
+      <workItem from="1606097835032" duration="2614000" />
+      <workItem from="1606111568719" duration="4840000" />
+      <workItem from="1606549976089" duration="132000" />
+      <workItem from="1606890583667" duration="13961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606550106412">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="155" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606550106412" />
+    <state x="434" y="297" key="Github.ShareDialog" timestamp="1606048668004">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="434" y="297" key="Github.ShareDialog/0.27.1366.741@0.27.1366.741" timestamp="1606048668004" />
+    <state x="386" y="84" width="584" height="626" key="Github.UntrackedFilesDialog" timestamp="1606048682430">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="386" y="84" width="584" height="626" key="Github.UntrackedFilesDialog/0.27.1366.741@0.27.1366.741" timestamp="1606048682430" />
+    <state width="1320" height="166" key="GridCell.Tab.0.bottom" timestamp="1606905903443">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="166" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1606905903443" />
+    <state width="1320" height="166" key="GridCell.Tab.0.center" timestamp="1606905903442">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="166" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1606905903442" />
+    <state width="1320" height="166" key="GridCell.Tab.0.left" timestamp="1606905903442">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="166" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1606905903441" />
+    <state width="1320" height="166" key="GridCell.Tab.0.right" timestamp="1606905903442">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="166" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1606905903442" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Deep_Learning_CNN_Using_Keras_Python$Testing.coverage" NAME="Testing Coverage Results" MODIFIED="1606905885247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Deep_Learning_CNN_Using_Keras_Python$Training.coverage" NAME="Training Coverage Results" MODIFIED="1606905172730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
