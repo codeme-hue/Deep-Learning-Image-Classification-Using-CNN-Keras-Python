@@ -25,6 +25,9 @@ pool_size = 2
 classes_num = 3
 lr = 0.0004
 
+"""
+Feature Extraction
+"""
 model = Sequential()
 model.add(Convolution2D(nb_filters1, conv1_size, input_shape=(img_width, img_height, 3)))
 model.add(Activation("relu")) #Rectifier Linear Unit
@@ -34,16 +37,25 @@ model.add(Convolution2D(nb_filters2, conv2_size, conv2_size))
 model.add(Activation("relu"))
 model.add(MaxPooling2D(pool_size=(pool_size, pool_size)))
 
+"""
+Fully Connected
+"""
 model.add(Flatten())
 model.add(Dense(256))
 model.add(Activation("relu"))
 model.add(Dropout(0.5))
 model.add(Dense(classes_num, activation='softmax'))
 
+"""
+Compile Architecture CNN
+"""
 model.compile(loss='categorical_crossentropy',
               optimizer=optimizers.RMSprop(lr=lr),
               metrics=['acc'])
 
+"""
+Setting Preparation dataset
+"""
 train_datagen = ImageDataGenerator(
     rescale=1. / 255,
     shear_range=0.2,
@@ -64,7 +76,9 @@ validation_generator = test_datagen.flow_from_directory(
     batch_size=batch_size,
     class_mode='categorical')
 
-
+"""
+Training
+"""
 model.fit_generator(
     train_generator,
     epochs=epochs,
